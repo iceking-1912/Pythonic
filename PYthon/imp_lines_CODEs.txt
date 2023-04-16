@@ -1,0 +1,54 @@
+
+# paths
+python_lib path = cd  /cygdrive/c/Users/Himanshu_1912/lets_code/CODE_A/PYthon/py_libs\
+
+python_dir path = cd /cygdrive/c/Users/Himanshu_1912/lets_code/CODE_A/PYthon/py_libs\
+
+------------------------------------------------------------------------------------------------------------------------------------
+# py_codes
+
+pan.update({'Handle':'Yes','age':'10 Years'})
+
+del pan['Handle']
+
+
+age = pan.pop('age')
+
+print(pan)
+print(age)
+print(pan.get('Handle','Please check Key'))
+
+#--------------------------------------------------------------
+
+
+
+useroption = input('0 for Ratio and  1 for Percent -? ')
+
+if useroption == '0':
+    print("Ok!")
+    print('Ratio')
+    print(ratio)
+elif useroption == '1':
+    print('Ok!')
+    print('Percent= ')
+    print(percent)
+else:
+    print('Invalid Input !!')
+
+#-------------------------------------------------------------------
+
+ https://github.com/pypa/get-pip.
+-get-pip.py github Link 
+
+#>---------------------------->
+dir where PY see for modules
+['c:\\Users\\Himanshu_1912\\Lets_Code\\CODE_A\\C++_Py_JS_Algo_DS_ETC\\PYthon\\Learning',
+ 'C:\\Users\\Himanshu_1912\\miniconda3\\python37.zip',
+ 'C:\\Users\\Himanshu_1912\\miniconda3\\DLLs',
+ 'C:\\Users\\Himanshu_1912\\miniconda3\\lib',
+ 'C:\\Users\\Himanshu_1912\\miniconda3',
+ 'C:\\Users\\Himanshu_1912\\AppData\\Roaming\\Python\\Python37\\site-packages',
+ 'C:\\Users\\Himanshu_1912\\miniconda3\\lib\\site-packages',
+ 'C:\\Users\\Himanshu_1912\\miniconda3\\lib\\site-packages\\win32',
+ 'C:\\Users\\Himanshu_1912\\miniconda3\\lib\\site-packages\\win32\\lib',
+ 'C:\\Users\\Himanshu_1912\\miniconda3\\lib\\site-packages\\Pythonwin']
