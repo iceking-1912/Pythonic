@@ -1,8 +1,4 @@
 
-from tkinter import Y
-from tkinter.messagebox import YESNOCANCEL
-
-
 i = 100
 n1 = 0
 n2 = 1
@@ -13,5 +9,4 @@ while c < i :
     nth = n1 + n2
     n1 = n2
     n2 = nth 
-    c += 1
-    
+    c += 1 

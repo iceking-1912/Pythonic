@@ -1,0 +1,101 @@
+# tuple
+# coordinator = [5, 7]
+# coordinator[0] = 13
+# print(coordinator[0])
+
+# functions
+# def print_coordinates(x):
+#     x = int(x)
+#     coordinator = (12, 17, 223)
+#     print(coordinator[x])
+#
+#
+# x = input("x(0)or y(1) or z(2) ")
+#
+# print_coordinates(x)
+
+#
+# def greetings(name, age):
+#     print("Hey " + name + " you are " + age + " years old.")
+#
+# greetings("Steven Maverick ","39")
+
+
+# def greetings(name, yob):
+#     yob = int(yob)
+#     age = 2023 - yob
+#     print("Hey " + name + " you are " + str(age) + " years old.")
+#
+#
+# greetings("Steven Maverick ", "1979")
+
+
+# better calculator
+#
+# num1 = float(input("Enter first Number: "))
+# op = input("Enter the Operation: ")
+# num2 = float(input("Enter Second Number: "))
+#
+# if op == "+":
+#     print(num1 + num2)
+# elif op == "-":
+#     print(num1 - num2)
+# elif op == "*":
+#     print(num1 * num2)
+# elif op == "/":
+#     print(num1/num2)
+# else:
+#     print("Invalid Operation")
+#
+
+
+# # Dictionary
+# month_converter = {
+#     "jan": "January",
+#     "feb": "February",
+#     "mar": "March",
+#     "apr": "April",
+#     "may": "May",
+#     "jun": "June",
+#     "jul": "July",
+#     "aug": "August",
+#     "sep": "September",
+#     "oct": "October",
+#     "nov": "November",
+#     "dec": "December"
+# }
+# print(month_converter.get("aer", "Not a Valid Key"))
+
+# while i am doing that
+# i = 1
+# while i <= 20:
+#     print("Hi Himanshu")
+#     i += 1
+# print("Done")
+
+# Guess my Game
+# openai.api_key = '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'
+
+# import random
+#
+# secret_word = "denji"
+# guess = " "
+#
+# while guess != secret_word:
+#     guess = input("Enter Guess = ")
+#     clue_dict = ["it starts with a 'd'. ", "it ends with an 'i'. ", "it is a character from Chainsaw man"]
+#     rand_int = random.randint(0, 2)
+#
+#     if guess != secret_word:
+#         print("incorrect")
+#         print(clue_dict[rand_int])
+#
+# print("Correct")
+#
+# x = 1
+# while x <= 10:
+#     print("meow")
+#     x += 1
+
+
+
