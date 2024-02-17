@@ -64,7 +64,9 @@
 #     "nov": "November",
 #     "dec": "December"
 # }
-# print(month_converter.get("aer", "Not a Valid Key"))
+# month = input("Enter the KeyWord ")
+#
+# print(month_converter.get(month, "Not a Valid Key"))
 
 # while i am doing that
 # i = 1
@@ -74,12 +76,13 @@
 # print("Done")
 
 # Guess my Game
-# openai.api_key = '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'
 
 # import random
+# import openai
 #
+# openai.api_key = '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'
 # secret_word = "denji"
-# guess = " "
+# guess = ""
 #
 # while guess != secret_word:
 #     guess = input("Enter Guess = ")
@@ -96,6 +99,3 @@
 # while x <= 10:
 #     print("meow")
 #     x += 1
-
-
-
